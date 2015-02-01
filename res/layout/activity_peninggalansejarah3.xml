@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#7dfb83"
+    tools:context="com.example.wisatajambii.Peninggalansejarah3" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/rumahlarik" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rumah Larik"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rumah Larik (Laheik) atau rumah panjang yang merupakan tempat tinggal orang Kerinci pada zaman dahulu. Salah satunya yang masih ada sampai sekarang yaitu Rumah Larik Iun Rio Jayo, yang terletak di Kecamata Sungai Penuh, berjarak kurang lebih 600 meter dari pusat kota. Dinding depan dan tiang rumah berukiran berelief flora berbentuk Selampit Simpai Pilih Berganda. Ukiran tersebut menggambarkan ke arah abstrak, tidak ada awal maupun ujungnya, bermakna mengarah pada sifat Tuhan Yang Maha Esa, artinya Tuhan itu tidak ada awal maupun akhirnya yaitu Esa (satu). Makna berikutnya Selampit Simpai menggambarkan bahwa suatu ikatan persaudaraan yang sangat erat diantara keluarga, karib kerabat, kalbu, pintu dan tumbi yang tidak pernah putus. Rumah Larik yang posisinya memanjang lurus menghadap ke timur dan barat sepanjang 100 meter atau lebih dan tiap-tiap sambungan tiang tidak memakai paku hanya pasak yang terbuat dari bambu betung yang sangat tua. Menurut pendapat orang-orang tua dahulu, posisi bangunan memanjang antara timur dan barat agar terhindar dari bencana gempa bumi dengan getaran bergelombang pada posisi permukaan tanah antara timur dan barat sehingga tidak menimbulkan korban jiwa maupun robohnya bangunan." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:onClick="back"
+                android:src="@drawable/back" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

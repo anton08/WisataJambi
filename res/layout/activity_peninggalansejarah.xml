@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+             android:background="#7dfb83"
+    tools:context="com.example.wisatajambii.Peninggalansejarah" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/batugong" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batu Gong"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batu Gong Nenek Betung terletak di desa Koto Beringin kecamatan Kumun Debai dengan jarak 4 Km dari pusat Kota Sungai Penuh. Batu Gong ini adalah peninggalan sejarah di zaman Budha, diperkirakan pada abad ke-3 atau ke-4 masehi. Pada dinding batu ini terdapat motif yang bergambar/berbentuk gong, gambar binatang, jari tangan dan gambar manusia, hal ini memberikan makna bahwa di tempat ini telah ada manusia dalam kegiatan ritual dari pemeluk kepercayaan animisme. Benda ini sangat baik untuk diteliti lebih lanjut. Batu Gong ini mirip dengan batu yang dijumpai di daerah hilir kecamtan Gunung Raya Kabupaten Kerinci dengan rupa dan bentuk maupun letak posisi di tanah serta ukuran panjang yang diperkirakan sama." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:onClick="back"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:onClick="next"
+                android:src="@drawable/previous" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

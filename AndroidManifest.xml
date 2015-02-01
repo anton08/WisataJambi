@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wisatajambii"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Peninggalansejarah"
+            android:label="@string/title_activity_peninggalansejarah" >
+        </activity>
+        <activity
+            android:name=".Wisata"
+            android:label="@string/title_activity_wisata" >
+        </activity>
+        <activity
+            android:name=".Budaya"
+            android:label="@string/title_activity_budaya" >
+        </activity>
+        <activity
+            android:name=".Wisatagunungkerinci"
+            android:label="@string/title_activity_wisatagunungkerinci" >
+        </activity>
+        <activity
+            android:name=".Wisata2"
+            android:label="@string/title_activity_wisata2" >
+        </activity>
+        <activity
+            android:name=".Wisata3"
+            android:label="@string/title_activity_wisata3" >
+        </activity>
+        <activity
+            android:name=".Peninggalansejarah1"
+            android:label="@string/title_activity_peninggalansejarah1" >
+        </activity>
+        <activity
+            android:name=".Peninggalansejarah2"
+            android:label="@string/title_activity_peninggalansejarah2" >
+        </activity>
+        <activity
+            android:name=".Peninggalansejarah3"
+            android:label="@string/title_activity_peninggalansejarah3" >
+        </activity>
+        <activity
+            android:name=".Budaya2"
+            android:label="@string/title_activity_budaya2" >
+        </activity>
+        <activity
+            android:name=".Budaya3"
+            android:label="@string/title_activity_budaya3" >
+        </activity>
+        <activity
+            android:name=".Sejarah"
+            android:label="@string/title_activity_sejarah" >
+        </activity>
+    </application>
+
+</manifest>

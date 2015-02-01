@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="#7dfb83"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wisatajambii.Sejarah" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sejarah Kota Jambi"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/gambarsejarah" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n Di Pulau Sumatera, Provinsi Jambi merupakan bekas wilayah Kesultanan Islam Melayu Jambi (1500-1901). Kesultanan ini memang tidak berhubungan secara langsung dengan 2 kerajaan Hindu-Budha pra-Islam. Sekitar Abad 6 awal 7 M berdiri KERAJAAN MALAYU (Melayu Tua) terletak di Muara Tembesi (kini masuk wilayah Batanghari, Jambi). Catatan Dinasti Tang mengatakan bahwa awak Abad 7 M. dan lagi pada abad 9 M Jambi mengirim duta/utusan ke Empayar China ( Wang Gungwu 1958;74). Kerajaan ini bersaing dengan SRI WIJAYA untuk menjadi pusat perdagangan. Letak Malayu yang lebih dekat ke jalur pelayaran Selat Melaka menjadikan Sri Wijaya merasa terdesak sehingga perlu menyerang Malayu sehingga akhirnya tunduk kepada Sri Wijaya. Muaro jambi, sebuah kompleks percandian di hilir Jambi mungkin dulu bekas pusat belajar agama Budha sebagaimana catatan pendeta Cina I-Tsing yang berlayar dari India pada tahun 671. Ia belajar di Sriwijaya selama 4 tahun dan kembali pada tahun 689 bersama empat pendeta lain untuk menulis dua buku tentang ziarah Budha. Saat itulah ia tulis bahwa Kerajaan Malayu kini telah menjadi bahagian Sri Wijaya.
+\n Abad ke 11 M setelah Sri Wijaya mulai pudar, ibunegeri dipindahkan ke Jambi ( Wolters 1970:2 ). Inilah KERAJAAN MALAYU (Melayu Muda) atau DHARMASRAYA berdiri di Muara Jambi. Sebagai sebuah bandar yang besar, Jambi juga menghasilkan berbagai rempah-rempahan dan kayu-kayuan. Sebaliknya dari pedagang Arab, mereka membeli kapas, kain dan pedang. Dari Cina, sutera dan benang emas,sebagai bahan baku kain tenun songket ( Hirt dan Rockhill 1964; 60-2 ). Tahun 1278 Ekspedisi Pamalayu dari Singasari di Jawa Timur menguasai kerajaan ini dan membawa serta putri dari Raja Malayu untuk dinikahkan dengan Raja Singasari. Hasil perkawinan ini adalah seorang pangeran bernama Adityawarman, yang setelah cukup umur dinobatkan sebagai Raja Malayu. Pusat kerajaan inilah yang kemudian dipindahkan oleh Adityawarman ke Pagaruyung dan menjadi raja pertama sekitar tahun 1347. Di Abad 15, Islam mulai menyebar ke Nusantara.
+\n Kesultanan Jambi
+Tanah Pilih Pesako Betuah. Seloka ini tertulis di lambang Kota Jambi hari ini. Dimana menurut orang tua-tua pemangku adat Melayu Jambi, Kononnya Tuanku Ahmad Salim dari Gujarat berlabuh di selat Berhala, Jambi dan mengislamkan orang-orang Melayu disitu, ia membangun pemerintahan baru dengan dasar Islam, bergelar Datuk Paduko Berhalo dan menikahi seorang putri dari Minangkabau bernama Putri Selaras Pinang Masak. Mereka dikaruniai Allah 4 anak, semuanya menjadi datuk wilayah sekitar kuala tersebut. Adapun putra bungsu yang bergelar Orang Kayo Hitam berniat untuk meluaskan wilayah hingga ke pedalaman, jika ada tuah, membangun sebuah kerajaan baru. Maka ia lalu menikahi anak dari Temenggung Merah Mato bernama Putri Mayang Mangurai. Oleh Temenggung Merah Mato, anak dan menantunya itu diberilah sepasang Angsa serta Perahu Kajang Lako. Kepada anak dan menantunya tersebut dipesankan agar mengikuti aliran Sungai Batanghari untuk mencari tempat guna mendirikan kerajaan yang baru itu dan bahwa tempat yang akan dipilih sebagai tapak kerajaan baru nanti haruslah tempat dimana sepasang Angsa bawaan tadi mahu naik ke tebing dan mupur di tempat tersebut selama dua hari dua malam. \n
+Setelah beberapa hari menghiliri Sungai Batanghari kedua Angsa naik ke darat di sebelah hilir (Kampung Jam), kampung Tenadang namanya pada waktu itu. Dan sesuai dengan amanah mertuanya maka Orang Kayo Hitam dan istrinya Putri Mayang Mangurai beserta pengikutnya mulailah membangun kerajaan baru yang kemudian disebut “Tanah Pilih”, dijadikan sebagai pusat pemerintahan kerajaannya (Kota Jambi) sekarang ini. \n
+Asal Nama Jambi
+Jambi berasal dari kata Jambe dalam bahasa Jawa yang bererti Pinang. Kemungkinan besar saat Tanah Pilih dijadikan tapak pembangunan kerajaan baru, pepohonan pinang banyak tumbuh disepanjang aliran sungai Batanghari, sehingga nama itu yang dipilih oleh Orang Kayo Hitam. \n
+Keris Siginjai
+Hubungan Orang Kayo Hitam dengan Tanah Jawa digambarkan dalam cerita orang tuo-tuo yang mengatakan bahwa Orang Kayo Hitam pergi ke Majapahit untuk mengambil Keris bertuah, dan kelak akan menjadikannya sebagai keris pusaka Kesultanan Jambi. Keris itu dinamakan Keris Siginjai. Keris Siginjai terbuat dari bahan-bahan berupa kayu, emas, besi dan nikel. Keris Siginjai menjadi pusaka yang dimiliki secara turun temurun oleh Kesultanan Jambi. Selama 400 tahun keris Siginjai tidak hanya sekadar lambang mahkota kesultanan Jambi, tapi juga sebagai lambang pemersatu rakyat Jambi. \n
+Sultan terakhir yang memegang benda kerajaan itu adalah Sultan Achmad Zainuddin pada awal abad ke 20. Selain keris Siginjai ada sebuah keris lagi yang dijadikan mahkota kerajaan yaitu keris Singa Marjaya yang dipakai oleh Pangeran Ratu (Putra Mahkota). Pada tahun 1903 Pangeran Ratu Martaningrat keturunan Sultan Thaha yang terakhir menyerahkan keris Singa Marjaya kepada Residen Palembang sebagai tanda penyerahan. Pemerintah Hindia Belanda kemudian menyimpan Keris Siginjai dan Singa Marjaya di Museum Nasional (Gedung Gajah) di Batavia (Jakarta). \n
+Sepucuk Jambi Sembilan Lurah
+Seloka ini tertulis di lambang Propinsi Jambi, menggambarkan luasnya wilayah Kesultanan Melayu Jambi yang merangkumi sembilan lurah dikala pemerintahan Orang Kayo Hitam, yaitu : VIII-IX Koto, Petajin, Muaro Sebo, Jebus, Aer Itam, Awin, Penegan, Miji dan Binikawan. Ada juga yang berpendapat bahwa wilayah Kesultanan Jambi dahulu meliputi 9 buah lurah yang dialiri oleh anak-anak sungai (batang), masing-masing bernama :
+\n 1. Batang Asai
+\n 2. Batang Merangin]
+\n 3. Batang Masurai
+\n 4. Batang Tabir
+\n 5. Batang Senamat
+\n 6. Batang Jujuhan
+\n 7. Batang Bungo
+\n 8. Batang Tebo, dan
+\n 9. Batang Tembesi.
+Batang-batang ini merupakan Anak Sungai Batanghari yang keseluruhannya itu merupakan wilayah Kesultanan Melayu Jambi. \n
+Kesultanan Jambi (1790-1904)
+\n 1790 – 1812 Masa Badruddin bin Ahmad Sultan Ratu Seri Ingalaga
+\n 1812 – 1833 Mahmud Muhieddin bin Ahmad Sultan Agung Seri Ingalaga
+\n 1833 – 1841 Muhammad Fakhruddin bin Mahmud Sultan Keramat
+\n 1841 – 1855 Abdul Rahman Nazaruddin bin Mahmud
+\n 1855 – 1858 Thaha Safiuddin bin Muhammad (1st time)
+\n 1858 – 1881 Ahmad Nazaruddin bin Mahmud
+\n 1881 – 1885 Muhammad Muhieddin bin Abdul Rahman
+\n 1885 – 1899 Ahmad Zainul Abidin bin Muhammad
+\n 1900 – 1904 Thaha Safiuddin bin Muhammad (2nd time)
+\n 1904 Dihancurkan Belanda
+Provinsi Jambi
+\n Wilayah propinsi Jambi hari ini pun terbagi atas 1 Bandar Ibukota (Jambi) dan 9 daerah mungkin agar sesuai seloka adat tadi. Tetapi nama daerahnya telah bertukar, iaitu :
+\n 1. Muara Jambi beribu kota di Sengeti
+\n 2. Bungo beribu kota di Muaro Bungo
+\n 3. Tebo beribu kota di Muaro Tebo
+\n 4. Sarolangun beribu kota di Sarolangun Kota
+\n 5. Merangin/Bangko beribu kota di Kota Bangko
+\n 6. Batanghari beribu kota di Muara Bulian
+\n 7. Tanjung Jabung Barat beribu kota di Kuala Tungkal
+\n 8. Tanjung Jabung Timur beribu kota di Muara Sabak
+\n 9. Kerinci beribu kota di Sungai Penuh
+Jika anda berkunjung ke Jambi, pastikan anda mencoba tempoyakdan Kueh2 Durian, Mee Tek-Wan, Kopi Jambi, Batik Jambi dan Songket Melayu Jambi. Semuanya tersedia di Pasar Besar Angso Duo, Kota Jambi.
+" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

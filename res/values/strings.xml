@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">wisatajambii</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_peninggalansejarah">Peninggalan Sejarah</string>
+    <string name="title_activity_wisata">Wisata</string>
+    <string name="title_activity_budaya">Budaya</string>
+    <string name="title_activity_wisatagunungkerinci">Wisatagunungkerinci</string>
+    <string name="title_activity_wisata2">Wisata2</string>
+    <string name="title_activity_wisata3">Wisata3</string>
+    <string name="title_activity_peninggalansejarah1">Peninggalansejarah1</string>
+    <string name="title_activity_peninggalansejarah2">Peninggalansejarah2</string>
+    <string name="title_activity_peninggalansejarah3">Peninggalansejarah3</string>
+    <string name="title_activity_budaya2">Budaya2</string>
+    <string name="title_activity_budaya3">Budaya3</string>
+    <string name="title_activity_sejarah">Sejarah Jambi</string>
+
+</resources>

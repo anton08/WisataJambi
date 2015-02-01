@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+      android:background="#7dfb83"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wisatajambii.Peninggalansejarah2" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/mesjidagung" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mesjid Agung"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mesjid Agung Pondok Tinggi terletak kira-kira 500 m dari jantung Kota Sungai Penuh. Mesjid ini pertama kali dibangun tahun 1874 oleh penduduk Pondok Tinggi dengan cara bergotong-royong. Pada masa itu bangunannya berdinding bambu dan beratap ijuk. Pada tahun 1890 oleh masyarakat setempat dilakukan renovasi dengan mengganti dindingnya dengan kayu berukir. Keunikan mesjid ini adalah dibangun tanpa menggunakan paku besi tetapi dengan cara memadukan antara kayu yang satu dengan yang lainnya dan memakai pasak yang dari kayu hingga dapat berdiri dengan megah. Ornamen yang digunakan didalam maupun diluar bangunan merupakan kombinasi antara seni ukir Persia, Roma, Mesir dan Indonesia. Mesjid ini dapat menampung kurang lebih 2.000 jemaah." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:onClick="back"
+                android:src="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="50dp"
+                android:onClick="next"
+                android:src="@drawable/previous" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
